@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'poppins', sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+section {
+  padding: 40px;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  flex-shrink: 0;
+  background-color: white;
+  filter: drop-shadow(0px 2.9825618267059326px 7.456404209136963px rgba(0, 0, 0, 0.10));
+
+}
+
+.navbar > img {
+  width: 82.02px;
+  height: 25.352px;
+  margin: 22px 0 22px 30px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 20px;
+}
+
+.hero-image {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.group-images {
+  width: 790.906px;
+height: 464px;
+flex-shrink: 0;
+}
+
+
+.one {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.descp {
+  color: #222;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 110%;
+margin: 0px 10px 10px 10px;
+padding: 0px 10px 10px 10px;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 350px;
+  font-size: 14px;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  position: relative;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card--image {
+  width: 100%;
+  border-radius: 9px;
+  height: 470px;
+  object-fit: cover;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
+}
+
+.card--star {
+  height: 14px;
+}
+
+.card--price {
+  margin: auto;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
